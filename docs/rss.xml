@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://3195861980.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://3195861980.github.io</link></image><lastBuildDate>Fri, 21 Jun 2024 12:23:34 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>天选2掉网卡问题</title><link>https://3195861980.github.io/post/tian-xuan-2-diao-wang-qia-wen-ti.html</link><description>#### 发生原因&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://3195861980.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://3195861980.github.io</link></image><lastBuildDate>Fri, 21 Jun 2024 12:40:57 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>天选2掉网卡问题</title><link>https://3195861980.github.io/post/tian-xuan-2-diao-wang-qia-wen-ti.html</link><description>#### 事件起因&#13;
 昨天跑的程序太多，电脑直接卡死，强制关机再开机后wifi直接没了&#13;
+&#13;
+####原因分析&#13;
+1.查看了设备管理器，看了网卡相关的驱动没有问题&#13;
+2.查看Wlan的系统服务，也是正常的运行&#13;
+3.软件驱动层面都没有问题，这个时候想到了是不是网卡硬件出问题，想想也不应该&#13;
+4.想到可能是网卡硬件的问题，直接拆机进行清灰，对网卡进行保养（用橡皮擦），发现了一个离谱的事情，&#13;
+天选2的网卡在硬盘的下面，看到这一幕我直接亚麻呆住了，网卡上还贴了一个导热胶，太6了 华硕&#13;
+&#13;
+&#13;
+&#13;
+####  解决方案&#13;
+1. 拔掉电源适配器，进行重启操作，稍等两分钟再进行开机&#13;
+2. 卸载网卡驱动，用手机usb给电脑供网，去华硕官网根据产品型号（机身背部）查询驱动，重新安装&#13;
+3. windwos上进行网络重置，重置之后等系统自动重启&#13;
+4.拆机对网卡进行清洁、散热操作（记得断电）&#13;
+&#13;
+我是依次进行了四次操作最终电脑的网络才恢复，感觉可以直接进行拆机然后一步到位&#13;
 &#13;
 。</description><guid isPermaLink="true">https://3195861980.github.io/post/tian-xuan-2-diao-wang-qia-wen-ti.html</guid><pubDate>Fri, 21 Jun 2024 12:23:10 +0000</pubDate></item></channel></rss>
